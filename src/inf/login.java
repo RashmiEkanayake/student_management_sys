@@ -66,7 +66,7 @@ public class login extends javax.swing.JFrame {
         uname=unamebox.getText();
         pword=pwordbox.getText();
         
-        if(uname.equals("Rashmi")&& pword.equals("123r")){
+        if(uname.equals("Rashmi")&& pword.equals("123")){
             mainFrame m1 =new mainFrame();
             m1.setVisible(true);
             this.dispose();
